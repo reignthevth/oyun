@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dxflpcwpdsve3"]
+
+[ext_resource type="PackedScene" uid="uid://ctow644cold5d" path="res://scenes/gelistirme karakteri.tscn" id="1_ssejl"]
+
+[node name="Mekanik Gelistirme" type="Node2D" unique_id=819999275]
+
+[node name="CharacterBody2D" parent="." unique_id=1224785084 instance=ExtResource("1_ssejl")]
+position = Vector2(1, -1)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=528242437]
+position = Vector2(1, -1)
+zoom = Vector2(4, 4)
