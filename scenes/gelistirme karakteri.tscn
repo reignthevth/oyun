@@ -35,8 +35,8 @@ animations = [{
 "texture": SubResource("AtlasTexture_3whjp")
 }],
 "loop": true,
-"name": &"default",
-"speed": 1.0
+"name": &"idle",
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_a0xbm"]
@@ -48,8 +48,9 @@ script = ExtResource("1_ffdbh")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1797246875]
 position = Vector2(1, -12)
 sprite_frames = SubResource("SpriteFrames_m5sfa")
-autoplay = "default"
-frame_progress = 0.83508945
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.041025724
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1262407458]
 position = Vector2(0, -4)
